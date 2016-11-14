@@ -1,7 +1,84 @@
 html {
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  max-height: 900px;
+}
+
+.img-flex {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.imgcircle {
+  top: 0;
+  left: 0;
+  float: left;
+  max-width: 30%;
+}
+
+.main {
+  overflow: hidden;
+  position: absolute;
+  padding: 2em 0 1em 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  border-radius: 8px;
+  border-width: 3px;
+  border: solid;
+  border-color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: .4em .75em .3em;
+  margin: 7px 0;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.mainright {
+  float: right;
+  padding: 0 0 0 2.5em;
+  text-align: left;
+  max-width: 400px;
 }
