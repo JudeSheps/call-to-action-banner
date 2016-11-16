@@ -19,10 +19,12 @@ body {
 
 .img-flex {
   display: block;
+  width: 100%;
 }
 
-.main {
+div.main {
   position: absolute;
+  width: 95%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -32,7 +34,7 @@ body {
 
 .imgcircle {
   float: left;
-  width: 38%;
+  width: 33%;
 }
 
 .mainright {
@@ -41,27 +43,30 @@ body {
   width: 60%;
 }
 
-h1 {
+.banner h2 {
   font-size: 3rem;
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
 }
 
 p {
   font-size: 1.5rem;
   line-height: 1.5;
+  margin: 0;
+  padding: .5em 0 .6em;
 }
 
 .btn {
   display: inline-block;
-  background-color: #666;
+  background-color: #333;
   border-radius: 8px;
   border-width: 3px;
   border: solid;
-  border-color: #666;
-  font-size: 1.125rem;
+  border-color: #333;
+  font-size: 1.5rem;
   text-decoration: none;
   color: #fff;
-  padding: .4em .75em .3em;
+  padding: .6em .75em;
 }
 
 .btn-big {
